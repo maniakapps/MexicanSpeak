@@ -1,0 +1,20 @@
+name: MexicanSpeak
+version: ${project.version}
+main: com.maniakapps.mexicanspeak.MexicanSpeak
+api-version: 1.13
+prefix: MS
+database: false
+authors: [ManuelPizano]
+description: A plugin that allows you to speak in Mexican
+website: maniakapps.com
+commands:
+  mxs:
+    description: Enable the plugin
+    usage: /<command>[word]
+    permission-message: You don't have permissions wey!
+    permission: msx.*
+permissions:
+  msx.*:
+    description: Admin permissons
+
+
